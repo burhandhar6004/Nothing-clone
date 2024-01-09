@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border:  1px solid red; */
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 150px;
+    font-family: 'DotGothic16', sans-serif;
+    box-shadow:     1px 1px 5px rgb(103, 99, 99);
+
+}
+.navbar h4{
+    font-size: 18px;
+    font-weight: 200;
+
+}
+.navbar span{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-inline: 20px;
+}
+
+.navbar span h3{
+    font-size: 20px;
+    font-weight: 200;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.navbar span h3 i{
+    font-size: 15px;
+}
+
+.image-icon i{
+    width: 90px;
+    font-size: 25px;
+}
+
+.page-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left-mobile{
+    width: 70%;
+    height: 100%;
+    background-image: url(./image/phone-2-launch_1292x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.right-mobile{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.right-mobile h1{
+    font-size: 65px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-mobile h5{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-mobile h6{
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-mobile button{
+    width: 380px;
+    height: 40px;
+    background-color: rgb(11, 11, 95);
+    color: white;
+    margin-top: 40px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+
+.right-mobile button:hover{
+    transition: transition .2s;
+    transform: scale(1.1);
+}
+
+/* PAGE-2 */
+
+.page-2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left-nothing{
+    width: 70%;
+    height: 100%;
+    background-image: url(./image/2560x2040_fa56c111-ffad-456f-b6fd-3da1eecc4059_1292x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.right-nothing{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.right-nothing h1{
+    font-size: 65px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-nothing h5{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-nothing h6{
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-nothing button{
+    width: 380px;
+    height: 40px;
+    background-color: rgb(11, 11, 95);
+    color: white;
+    margin-top: 40px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+
+.right-nothing button:hover{
+    transition: transition .2s;
+    transform: scale(1.1);
+}
+
+/* page-3 */
+
+.page-3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left-market{
+    width: 70%;
+    height: 100%;
+    background-image: url(./image/Nothing-KV-ECOM-Desktop_1292x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.right-market{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.right-market h2{
+    display: none;
+}
+
+.right-market h1{
+    font-size: 65px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-market h5{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-market h6{
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-market button{
+    width: 380px;
+    height: 40px;
+    background-color: rgb(11, 11, 95);
+    color: white;
+    margin-top: 40px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+
+.right-market button:hover{
+    transition: transition .2s;
+    transform: scale(1.1);
+}
+
+/* page-4 */
+.page-4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left-dark{
+    width: 70%;
+    height: 100%;
+    background-image: url(./image/Desktop-1_1292x.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.right-dark{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.right-dark h1{
+    font-size: 65px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-dark h5{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-dark h6{
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-dark button{
+    width: 380px;
+    height: 40px;
+    background-color: rgb(11, 11, 95);
+    color: white;
+    margin-top: 40px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+
+.right-dark button:hover{
+    transition: transition .2s;
+    transform: scale(1.1);
+}
+
+/* page-5 */
+.page-5{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left-girl{
+    width: 70%;
+    height: 100%;
+    background-image: url(./image/hp-pc_1292x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.right-girl{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.right-girl h1{
+    font-size: 65px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-girl h5{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-girl button{
+    width: 380px;
+    height: 40px;
+    background-color: rgb(11, 11, 95);
+    color: white;
+    margin-top: 40px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+
+.right-girl button:hover{
+    transition: transition .2s;
+    transform: scale(1.1);
+}
+
+/* page-6 */
+.page-6{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left-ear{
+    width: 70%;
+    height: 100%;
+    background-image: url(./image/ear-stick-05_8479a094-c8f5-4df8-962e-0197a8e622ec_1292x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.right-ear{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.right-ear h1{
+    font-size: 65px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-ear h5{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+/* page-7 */
+.page-7{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left-beta{
+    width: 70%;
+    height: 100%;
+    background-image: url(./image/android_14_2560x2040_26a22268-9b66-46a1-b336-34047b9d2f0f_1292x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.right-beta{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.right-beta h1{
+    font-size: 65px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-beta h5{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-beta button{
+    width: 380px;
+    height: 40px;
+    background-color: rgb(11, 11, 95);
+    color: white;
+    margin-top: 40px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+
+.right-beta button:hover{
+    transition: transition .2s;
+    transform: scale(1.1);
+}
+
+/* page-8 */
+.page-8{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left-men{
+    width: 70%;
+    height: 100%;
+    background-image: url(./image/Sampha-desktop_eb461186-9c1e-4ab7-8225-95a87d26726d_1292x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.right-men{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.right-men h1{
+    font-size: 65px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-men h5{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.right-men button{
+    width: 380px;
+    height: 40px;
+    background-color: rgb(11, 11, 95);
+    color: white;
+    margin-top: 40px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+
+.right-men button:hover{
+    transition: transition .2s;
+    transform: scale(1.1);
+}
+
+/* footer-part1 */
+.box-2{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.footer-box h3{
+    font-size: 30px;
+    text-align: center;
+}
+.footer-box p{
+    font-size: 25px;
+    text-align: center;
+}
+
+/* footer-part2 */
+.container-0{
+    width: 100%;
+    height:500px;
+    background-color: black;
+    padding-block: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-3 ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: white;
+    padding-top: 90px;
+    list-style: none;
+}
+
+.box-4 {
+    width: 76%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.cont-1 ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-2 ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-3 ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box5{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding-block: 50px;
+    padding-inline: 100px;
+    position: relative;
+    border-bottom:2px solid gray;
+}
+
+.box5 ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.box5 ul:nth-child(2){
+    padding-top: 40px;
+}
+
+.box5 ul:last-child{
+    padding-bottom: 140px;
+    /* margin-bottom: 40px; */
+}
+
+.box5 ul input{
+    width: 20rem;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.box5 ul i{
+    font-size: 30px;
+    position: absolute;
+    top: 10.4rem;
+    right: 12rem;
+    color: white;
+}
+
+/* last footer */
+
+.last-footer{
+    width:100%;
+    height:150px;
+    background-color: black;
+    padding-top:20px;
+    
+}
+
+.last-footer ul{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    padding-inline:130px;
+}
+
+.last-footer ul li{
+    list-style: none;
+    font-size: 20px;
+    color:white;
+
+}
+.last-footer ul li span{
+    width:200px;
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.last-footer ul li span i{
+    width:27px;
+    height:27px;
+    background-color:white;
+    color:black;
+    border-radius:40%;
+    text-align: center;
+    padding-top:3px;
+    font-size: 20px;
+
+}
+
+.last-footer ul li a{
+    color:white;
+    font-size:20px;
+   
+
+}
+.box5 ul li:first-child{
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
